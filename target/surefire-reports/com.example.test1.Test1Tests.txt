@@ -1,0 +1,54 @@
+-------------------------------------------------------------------------------
+Test set: com.example.test1.Test1Tests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.684 s <<< FAILURE! -- in com.example.test1.Test1Tests
+com.example.test1.Test1Tests.testRunWithPrintOperation -- Time elapsed: 0.843 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <You need to specify operation> but was: <2024-10-01T17:11:41.612+02:00  INFO 21012 --- [           main] o.s.b.d.r.RestartApplicationListener     : Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-01T17:11:41.631+02:00  INFO 21012 --- [           main] com.example.test1.Test1Application       : Starting Test1Application using Java 17.0.8 with PID 21012 (started by NIKITA in D:\Programing\Projects_Intelejii\workTest1\test1)
+2024-10-01T17:11:41.631+02:00  INFO 21012 --- [           main] com.example.test1.Test1Application       : No active profile set, falling back to 1 default profile: "default"
+2024-10-01T17:11:41.709+02:00  INFO 21012 --- [           main] com.example.test1.Test1Application       : Started Test1Application in 0.098 seconds (process running for 1.926)
+2024-10-01T17:11:41.811+02:00  INFO 21012 --- [           main] com.example.test1.Test1Application       : Reading file with path : project.json
+2024-10-01T17:11:41.823+02:00  INFO 21012 --- [           main] com.example.test1.Test1Application       : print operation is executed
+fruits
+..apple
+....green
+....red
+..pear
+....green
+....light green
+....dark green
+..lemon
+....yellow
+....green
+vegetables
+..carrot
+....orange
+....red
+..cabbage
+....green
+....dark green
+..leek
+....green
+....light green>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.example.test1.Test1Tests.testRunWithPrintOperation(Test1Tests.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
